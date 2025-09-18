@@ -34,3 +34,4 @@ proton-bridge
 
 # Claude Code configuration
 CLAUDE.md
+.claude/
