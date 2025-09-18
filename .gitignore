@@ -31,3 +31,6 @@ vendor-cache
 cmd/Desktop-Bridge/deploy
 cmd/Import-Export/deploy
 proton-bridge
+
+# Claude Code configuration
+CLAUDE.md

@@ -1,6 +1,8 @@
 module github.com/ljanyst/peroxide
 
-go 1.15
+go 1.24.0
+
+toolchain go1.24.5
 
 // These dependencies are `replace`d below, so the version numbers should be ignored.
 // They are in a separate require block to highlight this.
@@ -43,10 +45,25 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/vmihailenco/msgpack/v5 v5.1.3
 	go.etcd.io/bbolt v1.3.6
-	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d
-	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4
-	golang.org/x/sys v0.0.0-20220627191245-f75cf1eec38b // indirect
-	golang.org/x/text v0.3.7
+	golang.org/x/crypto v0.42.0
+	golang.org/x/net v0.44.0
+	golang.org/x/sys v0.36.0 // indirect
+	golang.org/x/text v0.29.0
+)
+
+require (
+	github.com/ProtonMail/go-mime v0.0.0-20220302105931-303f85f7fe0f // indirect
+	github.com/andybalholm/cascadia v1.1.0 // indirect
+	github.com/antlr/antlr4 v0.0.0-20201029161626-9a95f0cc3d7c // indirect
+	github.com/cronokirby/saferith v0.33.0 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/hashicorp/errwrap v1.0.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/vmihailenco/tagparser v0.1.2 // indirect
+	golang.org/x/term v0.35.0 // indirect
+	golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543 // indirect
+	gopkg.in/yaml.v2 v2.2.2 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
 
 replace (
